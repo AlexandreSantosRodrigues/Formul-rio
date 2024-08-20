@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FORMULÁRIO</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <form onsubmit="sendEmail(); reset(); return false;">
+      <h3>ENTRE EM CONTATO</h3>
+      <input type="text" id="name" placeholder="Nome" required>
+      <input type="Email" id="email" placeholder="Email" required>
+      <input type="text" id="phone" placeholder="N° de telefone" required>
+      <textarea id="message" rows="4" placeholder="Como podemos te ajudar?"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+</body>
+
+</html>
